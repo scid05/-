@@ -1,10 +1,10 @@
 $(document).ready(function () {
-  $(".menu").hover(
+  $(".menu li").hover(
     function () {
-      $(".sub li").stop().slideDown();
+      $(this).find(".sub li").stop().slideDown();
     },
     function () {
-      $(".sub li").stop().slideUp();
+      $(this).find(".sub li").stop().slideUp();
     }
   );
 
