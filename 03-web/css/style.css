@@ -33,17 +33,22 @@ a {
 .main {
     text-align: center;
     font-size: 21px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .main li {
     width: 150px;
     float: left;
+    background-color: #fff;
+    color: #333;
 }
 
-.main li:hover {}
+.main li:hover {
+    background-color: #333;
+    color: #fff;
+}
 
-.sub {}
+
 
 .sub li {}
 
