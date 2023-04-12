@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .wrap {
     width: 1200px;
 
@@ -12,6 +21,32 @@
     width: 100%;
     height: 100px;
 }
+
+.menu {
+    top: 30px;
+    left: 550px;
+    width: 600px;
+    position: absolute;
+    z-index: 99;
+}
+
+.main {
+    text-align: center;
+    font-size: 21px;
+    line-height: 40px;
+}
+
+.main li {
+    width: 150px;
+    float: left;
+}
+
+.main li:hover {}
+
+.sub {}
+
+.sub li {}
+
 
 .slide {
     width: 100%;
