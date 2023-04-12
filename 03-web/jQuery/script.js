@@ -26,4 +26,12 @@ $(document).ready(function () {
     $(".hga").css({ "background-color": "#ccc" });
     $(".hna").css({ "background-color": "#fff " });
   });
+  $(".popup button").click(function () {
+    $(".popup_bg").css({ display: "none" });
+  });
+  $(".no a")
+    .eq(0)
+    .click(function () {
+      $(".popup_bg").css({ display: "block" });
+    });
 });
