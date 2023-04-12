@@ -14,4 +14,16 @@ $(document).ready(function () {
     $(".slide img").eq(--i).fadeOut();
     if (i == 0) i = 3;
   }, 2000);
+  $(".hga").click(function () {
+    $(".no").css({ display: "none" });
+    $(".ga").css({ display: "block" });
+    $(".hga").css({ "background-color": "#fff" });
+    $(".hna").css({ "background-color": "#ccc" });
+  });
+  $(".hno").click(function () {
+    $(".ga").css({ display: "none" });
+    $(".no").css({ display: "block" });
+    $(".hga").css({ "background-color": "#ccc" });
+    $(".hna").css({ "background-color": "#fff " });
+  });
 });
